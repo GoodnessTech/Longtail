@@ -1,0 +1,13 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "cd \"Longtail Frontend\" && npm install",
+  "buildCommand": "cd \"Longtail Frontend\" && npm run build",
+  "outputDirectory": "Longtail Frontend/dist",
+  "framework": "vite",
+  "rewrites": [
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ]
+}

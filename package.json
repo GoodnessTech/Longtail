@@ -1,0 +1,27 @@
+{
+  "name": "longtail-protocol",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Permissionless Prediction-Market Infrastructure on BOT Chain",
+  "scripts": {
+    "dev": "npm --prefix \"Longtail Frontend\" run dev",
+    "build": "npm --prefix \"Longtail Frontend\" run build",
+    "preview": "npm --prefix \"Longtail Frontend\" run preview",
+    "typecheck": "npm --prefix \"Longtail Frontend\" run typecheck",
+    "lint": "npm --prefix \"Longtail Frontend\" run lint",
+    "install:frontend": "npm --prefix \"Longtail Frontend\" install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": [
+    "prediction-market",
+    "bot-chain",
+    "bohr-testnet",
+    "lmsr",
+    "defi",
+    "web3"
+  ],
+  "author": "GoodnessTech",
+  "license": "MIT"
+}

@@ -1,0 +1,5 @@
+# Foundry artifacts
+out/
+cache/
+.env
+*.log
